@@ -1,6 +1,6 @@
 const count = parseInt(process.argv[2]);
 while (isNaN(count)) {
-    console.log('Missing number of occurrences');
+    console.log('Missing size');
     break;
 }
 for (i = 0; i < count; i++) {
