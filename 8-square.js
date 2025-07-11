@@ -1,5 +1,5 @@
 const count = parseInt(process.argv[2]);
-while (!isNaN(count)) {
+while (isNaN(count)) {
     console.log('Missing number of occurrences');
     break;
 }
