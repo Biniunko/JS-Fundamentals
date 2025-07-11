@@ -6,7 +6,7 @@ spell("c","cool")
 spell("c",)
 spell()
 */
-const args = process.argv.slice(2);
+/*const args = process.argv.slice(2);
 
 if (args[0] && args[1]) {
   console.log(`${args[0]} is ${args[1]}`);
@@ -14,4 +14,6 @@ if (args[0] && args[1]) {
   console.log(args[1]);
 }else{
     console.log(args[0])
-}
+}*/
+const args = process.argv.slice(2);
+console.log(`${args[0]} is ${args[1]}`);
